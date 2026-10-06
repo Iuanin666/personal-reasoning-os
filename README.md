@@ -4,6 +4,8 @@
 
 Personal OS turns experiences, decisions, outcomes, external knowledge, and explicit self-reflection into an auditable Markdown record. It retrieves only relevant evidence for a question, keeps source identities separate, and tracks how **Self View** and **System View** change over time.
 
+中文：Personal OS 将经历、决策、结果、外部知识和主动反思沉淀为可审计的 Markdown 记录。它针对当前问题只加载相关证据，明确区分不同来源，并持续追踪 **Self View（自我认知）** 与 **System View（系统观察）** 如何随时间变化。
+
 This repository is the first public release after several private implementation iterations. It contains only code, schemas, synthetic evaluation data, and a completely fictional demo vault.
 
 ## Why this is more than Obsidian RAG
