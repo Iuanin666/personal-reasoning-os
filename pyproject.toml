@@ -1,0 +1,10 @@
+[project]
+name = "personal-reasoning-os"
+version = "0.1.0"
+description = "Local-first, evidence-aware personal memory and reasoning system built on Markdown."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

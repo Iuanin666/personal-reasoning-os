@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal OS Reflect"
+  short_description: "主动沉淀人生经历与决策，区分事实和 AI 观察，保留变化证据"
+  default_prompt: "使用 $reflect 沉淀本次对话中值得长期保留的经历。"
+policy:
+  allow_implicit_invocation: true

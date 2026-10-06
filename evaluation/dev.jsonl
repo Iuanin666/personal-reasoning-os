@@ -1,0 +1,8 @@
+{"id":"PUB001","query":"Which decision chose one garden before expansion?","category":"exact","expected_note_ids":["DEC-2030-0001"],"forbidden_or_confusing_note_ids":["SYS-Profile"],"expected_abstain":false}
+{"id":"PUB002","query":"What happened after the fictional pilot decision?","category":"decision_outcome","expected_note_ids":["DEC-2030-0001"],"acceptable_note_ids":["EXP-2030-0002"],"expected_abstain":false}
+{"id":"PUB003","query":"How does Lin explicitly describe their planning style?","category":"self_view","expected_note_ids":["SYS-Profile"],"forbidden_or_confusing_note_ids":["MOD-2030-0001"],"expected_abstain":false}
+{"id":"PUB004","query":"What conditional action pattern did the system observe?","category":"system_view","expected_note_ids":["MOD-2030-0001"],"forbidden_or_confusing_note_ids":["SYS-Profile"],"expected_abstain":false}
+{"id":"PUB005","query":"Which record limits the claim that Lin always acts quickly?","category":"counter_evidence","expected_note_ids":["EXP-2030-0003"],"acceptable_note_ids":["MOD-2030-0001"],"expected_abstain":false}
+{"id":"PUB006","query":"What is Lin's current fictional goal?","category":"current_state","expected_note_ids":["SYS-Current_Goals"],"expected_abstain":false}
+{"id":"PUB007","query":"Did Lin move to Mars in 2028?","category":"no_relevant_evidence","expected_note_ids":[],"expected_abstain":true}
+{"id":"PUB008","query":"Is the reversible-pilot article an original source or a third-party summary?","category":"source_identity","expected_note_ids":["KNOW-2030-0001"],"expected_abstain":false}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Profile Review"
+  short_description: "有证据地比较自我认识、系统观察与长期变化"
+  default_prompt: "根据 Personal OS 做一次只读 Profile Review，先展示提案，不要写入。"

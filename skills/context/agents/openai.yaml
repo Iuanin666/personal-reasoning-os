@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal OS Context"
+  short_description: "按问题加载有预算、可追溯的个人背景"
+  default_prompt: "加载与当前问题有关的 Personal OS 背景，并报告证据是否充分。"

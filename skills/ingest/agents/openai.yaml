@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal OS Ingest"
+  short_description: "导入外部资料，保留原始来源、引用和内容层级"
+  default_prompt: "使用 $ingest 将我提供的单个资料导入 Personal OS。"
+policy:
+  allow_implicit_invocation: true

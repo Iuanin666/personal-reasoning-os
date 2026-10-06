@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal OS Analyze"
+  short_description: "用个人历史与外部证据做可追溯分析"
+  default_prompt: "结合我的 Personal OS 分析当前问题，区分历史视角、外部证据与 AI 挑战。"

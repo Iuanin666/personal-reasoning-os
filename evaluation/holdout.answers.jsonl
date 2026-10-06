@@ -1,0 +1,4 @@
+{"id":"PUB009","expected_note_ids":["DEC-2030-0001"],"acceptable_note_ids":["EXP-2030-0001"],"expected_abstain":false}
+{"id":"PUB010","expected_note_ids":["SYS-Profile_History"],"acceptable_note_ids":["SYS-Profile","MOD-2030-0001"],"expected_abstain":false}
+{"id":"PUB011","expected_note_ids":["SYS-Constraints"],"expected_abstain":false}
+{"id":"PUB012","expected_note_ids":[],"expected_abstain":true}

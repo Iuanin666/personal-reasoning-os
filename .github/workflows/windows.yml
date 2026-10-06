@@ -1,0 +1,29 @@
+name: windows-public-gate
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '20.20.2'}
+      - run: ./scripts/setup.ps1
+        shell: pwsh
+      - run: ./scripts/create-demo.ps1
+        shell: pwsh
+      - run: ./scripts/install-skills.ps1 -VaultPath "$PWD/work/demo-vault" -TargetRoot "$PWD/work/skills"
+        shell: pwsh
+      - run: ./scripts/pos.ps1 index
+        shell: pwsh
+      - run: ./scripts/pos.ps1 validate
+        shell: pwsh
+      - run: ./.venv/Scripts/python.exe -m unittest discover -s tests -v
+        shell: pwsh
+      - run: ./.venv/Scripts/python.exe scripts/demo_smoke.py
+        shell: pwsh
+      - run: ./.venv/Scripts/python.exe scripts/privacy_scan.py
+        shell: pwsh
+      - run: ./.venv/Scripts/python.exe scripts/public_validate.py
+        shell: pwsh

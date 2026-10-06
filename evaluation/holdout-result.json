@@ -1,0 +1,65 @@
+{
+  "split": "holdout",
+  "cases": 4,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "mrr": 0.8333,
+  "hard_negative_clean_at_5": null,
+  "no_relevant_evidence_accuracy": 0.0,
+  "median_latency_ms": 12.98,
+  "details": [
+    {
+      "id": "PUB009",
+      "top10": [
+        "DEC-2030-0001",
+        "SYS-Principles",
+        "SYS-Profile_History",
+        "MOD-2030-0001",
+        "EXP-2030-0003",
+        "SYS-Constraints",
+        "EXP-2030-0001"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB010",
+      "top10": [
+        "SYS-Profile_History",
+        "SYS-Profile",
+        "DEC-2030-0001",
+        "MOD-2030-0001",
+        "EXP-2030-0002",
+        "SYS-Constraints",
+        "EXP-2030-0003"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB011",
+      "top10": [
+        "DEC-2030-0001",
+        "SYS-Constraints",
+        "MOD-2030-0001",
+        "EXP-2030-0002",
+        "EXP-2030-0003",
+        "EXP-2030-0001",
+        "SYS-Profile_History"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB012",
+      "top10": [
+        "SYS-Current_Goals",
+        "MOD-2030-0001",
+        "DEC-2030-0001",
+        "PROJ-SKYLINE-SEED-LAB",
+        "EXP-2030-0001",
+        "SYS-Constraints",
+        "EXP-2030-0003",
+        "SYS-Profile"
+      ],
+      "evidence_status": "supported"
+    }
+  ]
+}

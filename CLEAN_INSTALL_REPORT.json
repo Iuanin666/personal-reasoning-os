@@ -1,0 +1,37 @@
+{
+  "public_version": "0.1.0",
+  "tested_on": "Windows 11",
+  "python": "3.13.5",
+  "node": "20.20.2",
+  "fresh_public_tree": true,
+  "fresh_virtual_environments": true,
+  "preexisting_index_or_cache_used": false,
+  "setup_ps1": "pass",
+  "locked_core_dependencies": "pass",
+  "locked_ingest_dependencies": "pass",
+  "embedding_model_download_and_manifest": "pass",
+  "defuddle_0_19_4_html_smoke": "pass",
+  "docling_2_133_0_docx_smoke": "pass",
+  "demo_vault_initialization": "pass",
+  "installed_skills_in_isolated_target": 5,
+  "demo_index": {"notes": 12, "chunks": 20, "valid": true},
+  "public_unit_tests": {"tests": 8, "passed": 8},
+  "privacy_scanner": {
+    "generic_rules": "pass",
+    "external_private_patterns": "pass",
+    "sensitive_match_echo": false,
+    "private_denylist_artifact_gate": "pass"
+  },
+  "internal_full_regression": {"tests": 94, "passed": 94},
+  "demo_smoke": {
+    "reflect": "pass",
+    "ingest": "pass",
+    "context": "pass",
+    "analyze": "pass",
+    "profile_review_read_only": "pass",
+    "rebuild": "pass",
+    "validate": "pass"
+  },
+  "first_index_missing_dependency_reproduced": false,
+  "note": "Codex's Windows AppContainer blocked one sdist temporary-directory extraction inside the sandbox. The same public setup script completed outside that sandbox; this was an execution-sandbox ACL constraint rather than a project dependency failure."
+}

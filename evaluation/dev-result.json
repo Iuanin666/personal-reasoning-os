@@ -1,0 +1,117 @@
+{
+  "split": "dev",
+  "cases": 8,
+  "recall_at_5": 0.5714,
+  "recall_at_10": 0.7143,
+  "mrr": 0.3776,
+  "hard_negative_clean_at_5": 1.0,
+  "no_relevant_evidence_accuracy": 0.0,
+  "median_latency_ms": 19.02,
+  "details": [
+    {
+      "id": "PUB001",
+      "top10": [
+        "DEC-2030-0001",
+        "SYS-Principles",
+        "EXP-2030-0001",
+        "EXP-2030-0003",
+        "SYS-Profile_History",
+        "EXP-2030-0002"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB002",
+      "top10": [
+        "MOD-2030-0001",
+        "DEC-2030-0001",
+        "SYS-Profile_History",
+        "EXP-2030-0003",
+        "EXP-2030-0001",
+        "SYS-Constraints",
+        "EXP-2030-0002",
+        "PROJ-SKYLINE-SEED-LAB"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB003",
+      "top10": [
+        "SYS-Profile_History",
+        "SYS-Profile",
+        "EXP-2030-0001",
+        "SYS-Constraints",
+        "DEC-2030-0001",
+        "MOD-2030-0001"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB004",
+      "top10": [
+        "SYS-Profile_History",
+        "MOD-2030-0001",
+        "EXP-2030-0001",
+        "EXP-2030-0002",
+        "DEC-2030-0001",
+        "SYS-Constraints",
+        "SYS-Current_Goals"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB005",
+      "top10": [
+        "MOD-2030-0001",
+        "SYS-Profile_History",
+        "EXP-2030-0002",
+        "DEC-2030-0001",
+        "SYS-Constraints",
+        "SYS-Profile",
+        "EXP-2030-0001"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB006",
+      "top10": [
+        "SYS-Profile_History",
+        "PROJ-SKYLINE-SEED-LAB",
+        "SYS-Profile",
+        "EXP-2030-0001",
+        "SYS-Constraints",
+        "MOD-2030-0001",
+        "SYS-Current_Goals",
+        "DEC-2030-0001"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB007",
+      "top10": [
+        "MOD-2030-0001",
+        "DEC-2030-0001",
+        "SYS-Constraints",
+        "EXP-2030-0003",
+        "SYS-Profile_History",
+        "EXP-2030-0001",
+        "SYS-Profile",
+        "PROJ-SKYLINE-SEED-LAB"
+      ],
+      "evidence_status": "supported"
+    },
+    {
+      "id": "PUB008",
+      "top10": [
+        "MOD-2030-0001",
+        "SYS-Principles",
+        "SYS-Profile_History",
+        "DEC-2030-0001",
+        "EXP-2030-0003",
+        "EXP-2030-0001",
+        "SYS-Profile"
+      ],
+      "evidence_status": "supported"
+    }
+  ]
+}
